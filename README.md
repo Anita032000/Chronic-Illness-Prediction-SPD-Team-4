@@ -10,3 +10,37 @@ A stable internet connection is recommended for a smooth user experience.
 The application is free of cost and is made available to all users. 
 Less time consuming and provides added options for consulting. 
 The Application predicts the closest disease based on the user inputs although it cannot guarantee an exact diagnosis of the disease. 
+
+Recently, many researchers have designed various automated diagnosis models using various supervised learning models. An early diagnosis of disease may control the death rate due to these diseases. In this project, an automated disease diagnosis model is designed using the machine learning models. In this project, we have selected three critical diseases such as Stroke, General cardiovascular disease, and diabetes. In this project, the data are entered into an web Application, the analysis is then performed in a real-time database using a pretrained machine learning model which was trained on the same dataset and deployed in MySQL Workbench, and finally, the disease detection result is shown in the Web Application. Logistic regression is used to carry out computation for prediction. Early detection can help in identifying the risk of Stroke, General cardiovascular disease, and diabetes. The proposed model may help doctors to give timely medications for treatment.
+
+
+Technology Stack Used
+Front End - HTML, CSS
+Framework - Flask
+Back End - Python
+Database - MySQL
+IDE - VScode
+ML Code-Google Collaboratory & Jupyter Notebook 
+
+Core Features
+Risk Prediction based on a Logistic Recurssion Model, on analysing various Datasets integrated with a web-based front end model 
+
+
+Modules
+
+- Login
+- Registration 
+- Menu page-Different Chronic Diseases 
+  -Stroke 
+  -Cardiovascular disease 
+  -Diabetes 
+  -More to come 
+  
+- Each disease has an Input page to collect data from the user 
+  -Stroke-gender,age,hypertension,heart_disease,ever_married,work_type,Residence_type,avg_glucose_level,bmi,smoking_status
+  -Cardiovascular disease -AGE;GENDER;HEIGHT;WEIGHT;AP_HIGH;AP_LOW;CHOLESTEROL;GLUCOSE;SMOKE;ALCOHOL;PHYSICAL_ACTIVITY
+  -Diabetes Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age
+  
+- Result page displaying The Predicted outcome
+- Logout
+
