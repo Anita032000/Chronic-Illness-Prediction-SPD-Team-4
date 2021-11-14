@@ -44,3 +44,68 @@ Modules
 - Result page displaying The Predicted outcome
 - Logout
 
+
+File Wise Description 
+
+1.Database
+
+	-SQL Commands for creation and deployment of Tables for storing the database 
+
+
+ 
+ 
+2.Datasets 
+
+	-The Datasets used to Train the Machine training Models 
+ 
+ 	-3.csv-General Cardiovascular Disease
+ 
+ 	-db.csv-Diabetes 
+ 
+ 	-stroke.csv-Stroke 
+ 
+ 	-Source-Kaggle https://www.kaggle.com 
+ 
+ 
+ 
+3.Templates-HTML Page Files 
+
+	-Register.html 
+
+	-Login.html
+
+	-Index.html
+
+	-cardio.html-Stroke Page 
+
+	-cardiovascular.html-General Cardiovascular Disease page 
+
+	-diabetes.html-Diabetes page 
+
+	-Output.html-Result Page 
+
+
+
+4.app.py
+
+	-Python Code for the Web Application 
+     	-Functions 
+        	-Register 
+        	-Login
+        	-Index
+        	-Cardio
+       		-Cardiovascular 
+        	-Diabetes 
+        	-Output 
+   	-ML Code 
+     -strokeml
+     -diaml
+     -cardiovascularml
+	 
+	 
+     
+5.static
+
+	-CSS file for styling the web Application 
+	-style.css
+
